@@ -47,6 +47,7 @@ const AnimeDetailsPage = () => {
   const { id } = useParams();
   const [anime, setAnime] = useState<Anime>();
   const [error, setError] = useState(false);
+  // eslint-disable-next-line
   const [genres, setGenres] = useState<Object>();
 
   useEffect(() => {
